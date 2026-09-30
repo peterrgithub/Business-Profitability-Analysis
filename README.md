@@ -39,14 +39,13 @@ The analysis investigates:
 ## Key Analytical Findings
 
 - The dataset contains 9,994 order-line records representing 5,009 unique orders.
-- Total recorded sales are approximately USD 2.30 million.
-- Total recorded profit is approximately USD 286,397.
-- Overall recorded profit margin is approximately 12.47%.
+- Total sales were approximately USD 2.30 million, with a total profit of approximately USD 286,397, and an overall profit margin of
+- 12.47%.
 - Profitability varies substantially across product categories and regions of the business' coverage.
 - Furniture has a substantially lower aggregate recorded profit margin than Office Supplies and Technology.
-- 301 of 1,850 unique products are loss-making overall.
-- These loss-making products generated approximately USD 555,414 in sales and a combined recorded loss of approximately USD 77,068.
-- Losses are concentrated among a relatively small number of products.
+- 301 of 1,862 unique products are loss-making, generating approximately USD 548,418 in sales, also, a combined loss of approximately
+- USD 77,068.
+- Losses in this business are concentrated among a relatively small number of products.
 - Higher discount levels generally correspond with lower recorded profit margins in the dataset.
 
 These findings are descriptive and should not be interpreted as proof of causal relationships between aspects of the business.
