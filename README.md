@@ -39,7 +39,7 @@ The analysis investigates:
 ## Key Analytical Findings
 
 - The dataset contains 9,994 order-line records representing 5,009 unique orders.
-- Total recorded sales are approximately USD 2,300,000 million.
+- Total recorded sales are approximately USD 2.30 million.
 - Total recorded profit is approximately USD 286,397.
 - Overall recorded profit margin is approximately 12.47%.
 - Profitability varies substantially across product categories and regions of the business' coverage.
