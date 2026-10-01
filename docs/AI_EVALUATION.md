@@ -18,13 +18,13 @@ The Sample Superstore dataset is recorded at the order-line level.
 
 Repeated Order IDs are therefore expected. Treating every row as a separate order would overstate the number of orders and could lead to incorrect conclusions.
 
-The dataset contains 9,994 order-line records but only 5,009 are unique orders.
+The dataset contains 9,994 order-line records and 5,009 unique orders.
 
 ### 3. Are aggregations valid?
 
 Aggregations should match the business question and the grain of the data.
 
-Analogy, overall profit margin should be calculated as:
+For example, overall profit margin should be calculated as:
 
 Profit Margin = Total Profit / Total Sales
 
@@ -34,7 +34,7 @@ It should not be calculated by simply averaging individual row-level profit marg
 
 Joins can unintentionally multiply records when the relationship between tables is incorrectly understood.
 
-So it quintessential that an analyst should verify:
+So it is quintessential that an analyst should verify:
 
 - Join keys
 - Key uniqueness
@@ -85,7 +85,7 @@ An AI system might conclude that the product with the highest sales is the compa
 
 This conclusion is incomplete because sales measure revenue rather than profitability.
 
-A product can generate substantial sales while producing relatively little profit or even worst still, a loss.
+A product can generate substantial sales while producing relatively little profit or, worst still, a loss.
 
 A more appropriate analysis would examine sales, total profit, and profit margin together.
 
@@ -122,7 +122,7 @@ The following analyses were cross-validated:
 4. Discount-level profitability
 5. Loss-making products
 
-Agreement between the Python and SQL results provides an additional validation check for the calculations.
+Agreement between the Python and SQL results solidifies an additional validation for the calculations.
 
 Cross-validation does not prove that the underlying business interpretation is correct, but it helps identify implementation or calculation errors.
 
